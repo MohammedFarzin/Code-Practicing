@@ -1,0 +1,7 @@
+18:23:10 **** Rebuild of configuration Debug for project SMAPLESD ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SMAPLESD.o" "..\\src\\SMAPLESD.c" 
+gcc -o SMAPLESD.exe "src\\SMAPLESD.o" 
+
+18:23:10 Build Finished. 0 errors, 0 warnings. (took 323ms)
+

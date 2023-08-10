@@ -1,0 +1,7 @@
+18:22:57 **** Incremental Build of configuration Debug for project Array second smallest element in array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array second smallest element in array.o" "..\\src\\Array second smallest element in array.c" 
+gcc -o "Array second smallest element in array.exe" "src\\Array second smallest element in array.o" 
+
+18:22:57 Build Finished. 0 errors, 0 warnings. (took 326ms)
+

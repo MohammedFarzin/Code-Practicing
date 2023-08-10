@@ -1,0 +1,24 @@
+18:23:13 **** Rebuild of configuration Debug for project pattern 13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 13.o" "..\\src\\pattern 13.c" 
+..\src\pattern 13.c: In function 'main':
+..\src\pattern 13.c:24:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+..\src\pattern 13.c:24:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+..\src\pattern 13.c:27:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+..\src\pattern 13.c:27:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+gcc -o "pattern 13.exe" "src\\pattern 13.o" 
+
+18:23:13 Build Finished. 0 errors, 4 warnings. (took 342ms)
+

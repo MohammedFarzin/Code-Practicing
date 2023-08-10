@@ -1,0 +1,7 @@
+18:23:03 **** Rebuild of configuration Debug for project Hill pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hill pattern.o" "..\\src\\Hill pattern.c" 
+gcc -o "Hill pattern.exe" "src\\Hill pattern.o" 
+
+18:23:03 Build Finished. 0 errors, 0 warnings. (took 322ms)
+

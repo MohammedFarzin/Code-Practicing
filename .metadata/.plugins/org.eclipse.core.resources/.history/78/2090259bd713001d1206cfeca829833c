@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : Diamond.c
+ Author      : farzin
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int n;
+
+	printf("Please enter your age");
+	scanf("%d", &n);
+	printf("your age is %d", n);
+
+	return EXIT_SUCCESS;
+}

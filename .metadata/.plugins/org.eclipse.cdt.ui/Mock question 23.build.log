@@ -1,0 +1,11 @@
+18:23:03 **** Rebuild of configuration Debug for project Mock question 23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 23.o" "..\\src\\Mock question 23.c" 
+..\src\Mock question 23.c: In function 'main':
+..\src\Mock question 23.c:15:10: warning: unused variable 'n' [-Wunused-variable]
+  int i,j,n;
+          ^
+gcc -o "Mock question 23.exe" "src\\Mock question 23.o" 
+
+18:23:04 Build Finished. 0 errors, 1 warnings. (took 322ms)
+

@@ -1,0 +1,7 @@
+18:22:54 **** Rebuild of configuration Debug for project Array 2nd largest number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array 2nd largest number.o" "..\\src\\Array 2nd largest number.c" 
+gcc -o "Array 2nd largest number.exe" "src\\Array 2nd largest number.o" 
+
+18:22:54 Build Finished. 0 errors, 0 warnings. (took 353ms)
+

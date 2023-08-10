@@ -1,0 +1,7 @@
+18:22:55 **** Rebuild of configuration Debug for project Array first half of the elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array first half of the elements.o" "..\\src\\Array first half of the elements.c" 
+gcc -o "Array first half of the elements.exe" "src\\Array first half of the elements.o" 
+
+18:22:56 Build Finished. 0 errors, 0 warnings. (took 351ms)
+

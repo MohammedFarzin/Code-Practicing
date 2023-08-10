@@ -1,0 +1,41 @@
+/*
+ ============================================================================
+ Name        : Assignment.c
+ Author      : farzin
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+	int main(void) {
+	int i,limit,flag=0;
+	char word[100];
+	setbuf(stdout,NULL);
+	printf("enter a word\n");
+	scanf("%s",word);
+
+	limit=strlen(word);
+	for(i=0;i<(limit/2);i++)
+	{
+	if(word[i]!=word[(limit-1)-i])
+	{
+	flag=1;
+	}
+	}
+	if (flag==0)
+	{
+	printf("the word is palindrome");
+
+	}
+	else {
+	printf("the word is not palindrome");
+	}
+	return EXIT_SUCCESS;
+	}
+

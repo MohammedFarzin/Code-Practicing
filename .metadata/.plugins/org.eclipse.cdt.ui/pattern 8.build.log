@@ -1,0 +1,16 @@
+18:23:16 **** Rebuild of configuration Debug for project pattern 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 8.o" "..\\src\\pattern 8.c" 
+..\src\pattern 8.c: In function 'main':
+..\src\pattern 8.c:20:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    printf("%c", (char)p+"");
+            ~^   ~~~~~~~~~~
+            %s
+..\src\pattern 8.c:20:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    printf("%c", (char)p+"");
+            ~^   ~~~~~~~~~~
+            %s
+gcc -o "pattern 8.exe" "src\\pattern 8.o" 
+
+18:23:16 Build Finished. 0 errors, 2 warnings. (took 267ms)
+

@@ -1,0 +1,7 @@
+18:23:12 **** Rebuild of configuration Debug for project pattern 10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 10.o" "..\\src\\pattern 10.c" 
+gcc -o "pattern 10.exe" "src\\pattern 10.o" 
+
+18:23:12 Build Finished. 0 errors, 0 warnings. (took 324ms)
+

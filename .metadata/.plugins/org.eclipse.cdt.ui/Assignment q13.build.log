@@ -1,0 +1,23 @@
+18:22:58 **** Rebuild of configuration Debug for project Assignment q13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q13.o" "..\\src\\Assignment q13.c" 
+..\src\Assignment q13.c: In function 'main':
+..\src\Assignment q13.c:19:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[100]' [-Wformat=]
+  scanf("%s", &word);
+         ~^   ~~~~~
+..\src\Assignment q13.c:19:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[100]' [-Wformat=]
+..\src\Assignment q13.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  limit = strlen(word);
+          ^~~~~~
+..\src\Assignment q13.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Assignment q13.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Assignment q13.c:13:1:
++#include <string.h>
+ 
+..\src\Assignment q13.c:21:10:
+  limit = strlen(word);
+          ^~~~~~
+gcc -o "Assignment q13.exe" "src\\Assignment q13.o" 
+
+18:22:59 Build Finished. 0 errors, 4 warnings. (took 324ms)
+

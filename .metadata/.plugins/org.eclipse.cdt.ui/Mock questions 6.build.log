@@ -1,0 +1,22 @@
+11:30:25 **** Incremental Build of configuration Debug for project Mock questions 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 6.o" "..\\src\\Mock questions 6.c" 
+..\src\Mock questions 6.c: In function 'main':
+..\src\Mock questions 6.c:16:1: warning: statement with no effect [-Wunused-value]
+ 0
+ ^
+..\src\Mock questions 6.c:16:2: error: expected ';' before 'for'
+ 0
+  ^
+  ;
+  for(i=1; i<=10; i++){
+  ~~~
+..\src\Mock questions 6.c:15:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j;
+        ^
+..\src\Mock questions 6.c:15:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,j;
+      ^
+
+11:30:25 Build Failed. 1 errors, 3 warnings. (took 126ms)
+

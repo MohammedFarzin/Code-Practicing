@@ -1,0 +1,7 @@
+18:23:10 **** Rebuild of configuration Debug for project Right sided triangle ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Right sided triangle.o" "..\\src\\Right sided triangle.c" 
+gcc -o "Right sided triangle.exe" "src\\Right sided triangle.o" 
+
+18:23:10 Build Finished. 0 errors, 0 warnings. (took 333ms)
+

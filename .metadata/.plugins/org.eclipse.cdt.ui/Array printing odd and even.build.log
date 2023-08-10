@@ -1,0 +1,7 @@
+18:22:56 **** Rebuild of configuration Debug for project Array printing odd and even ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array printing odd and even.o" "..\\src\\Array printing odd and even.c" 
+gcc -o "Array printing odd and even.exe" "src\\Array printing odd and even.o" 
+
+18:22:56 Build Finished. 0 errors, 0 warnings. (took 330ms)
+

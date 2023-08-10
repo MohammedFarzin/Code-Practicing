@@ -1,0 +1,7 @@
+18:23:14 **** Rebuild of configuration Debug for project pattern 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 4.o" "..\\src\\pattern 4.c" 
+gcc -o "pattern 4.exe" "src\\pattern 4.o" 
+
+18:23:15 Build Finished. 0 errors, 0 warnings. (took 345ms)
+

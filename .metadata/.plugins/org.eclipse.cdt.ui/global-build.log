@@ -1,0 +1,586 @@
+17:30:43 **** Incremental Build of configuration Debug for project Mock question 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 1.o" "..\\src\\Mock question 1.c" 
+gcc -o "Mock question 1.exe" "src\\Mock question 1.o" 
+17:30:47 **** Incremental Build of configuration Debug for project Mock question 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 1.o" "..\\src\\Mock question 1.c" 
+..\src\Mock question 1.c: In function 'main':
+..\src\Mock question 1.c:39:16: warning: zero-length ms_printf format string [-Wformat-zero-length]
+         printf("");
+                ^~
+..\src\Mock question 1.c:39:16: warning: zero-length ms_printf format string [-Wformat-zero-length]
+gcc -o "Mock question 1.exe" "src\\Mock question 1.o" 
+17:32:48 **** Incremental Build of configuration Debug for project Mock question 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 1.o" "..\\src\\Mock question 1.c" 
+gcc -o "Mock question 1.exe" "src\\Mock question 1.o" 
+18:22:54 **** Rebuild of configuration Debug for project Array 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array 1.o" "..\\src\\Array 1.c" 
+gcc -o "Array 1.exe" "src\\Array 1.o" 
+18:22:54 **** Rebuild of configuration Debug for project Array 2nd largest number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array 2nd largest number.o" "..\\src\\Array 2nd largest number.c" 
+gcc -o "Array 2nd largest number.exe" "src\\Array 2nd largest number.o" 
+18:22:54 **** Rebuild of configuration Debug for project Array Deletion ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array Deletion.o" "..\\src\\Array Deletion.c" 
+gcc -o "Array Deletion.exe" "src\\Array Deletion.o" 
+18:22:55 **** Rebuild of configuration Debug for project Array Reversing elements in array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array Reversing elements in array.o" "..\\src\\Array Reversing elements in array.c" 
+gcc -o "Array Reversing elements in array.exe" "src\\Array Reversing elements in array.o" 
+18:22:55 **** Rebuild of configuration Debug for project Array first half of the elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array first half of the elements.o" "..\\src\\Array first half of the elements.c" 
+gcc -o "Array first half of the elements.exe" "src\\Array first half of the elements.o" 
+18:22:56 **** Rebuild of configuration Debug for project Array printing odd and even ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array printing odd and even.o" "..\\src\\Array printing odd and even.c" 
+gcc -o "Array printing odd and even.exe" "src\\Array printing odd and even.o" 
+18:22:56 **** Rebuild of configuration Debug for project Array reversing order ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array reversing order.o" "..\\src\\Array reversing order.c" 
+..\src\Array reversing order.c: In function 'main':
+..\src\Array reversing order.c:16:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,size,arr[100];
+        ^
+gcc -o "Array reversing order.exe" "src\\Array reversing order.o" 
+18:22:57 **** Incremental Build of configuration Debug for project Array second smallest element in array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array second smallest element in array.o" "..\\src\\Array second smallest element in array.c" 
+gcc -o "Array second smallest element in array.exe" "src\\Array second smallest element in array.o" 
+18:22:57 **** Rebuild of configuration Debug for project Assignment q1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q1.o" "..\\src\\Assignment q1.c" 
+gcc -o "Assignment q1.exe" "src\\Assignment q1.o" 
+18:22:57 **** Rebuild of configuration Debug for project Assignment q10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q10.o" "..\\src\\Assignment q10.c" 
+..\src\Assignment q10.c: In function 'main':
+..\src\Assignment q10.c:50:4: error: expected declaration or statement at end of input
+    }
+    ^
+18:22:58 **** Rebuild of configuration Debug for project Assignment q11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q11.o" "..\\src\\Assignment q11.c" 
+gcc -o "Assignment q11.exe" "src\\Assignment q11.o" 
+18:22:58 **** Rebuild of configuration Debug for project Assignment q12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q12.o" "..\\src\\Assignment q12.c" 
+gcc -o "Assignment q12.exe" "src\\Assignment q12.o" 
+18:22:58 **** Rebuild of configuration Debug for project Assignment q13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q13.o" "..\\src\\Assignment q13.c" 
+..\src\Assignment q13.c: In function 'main':
+..\src\Assignment q13.c:19:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[100]' [-Wformat=]
+  scanf("%s", &word);
+         ~^   ~~~~~
+..\src\Assignment q13.c:19:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[100]' [-Wformat=]
+..\src\Assignment q13.c:21:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  limit = strlen(word);
+          ^~~~~~
+..\src\Assignment q13.c:21:10: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Assignment q13.c:21:10: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Assignment q13.c:13:1:
++#include <string.h>
+ 
+..\src\Assignment q13.c:21:10:
+  limit = strlen(word);
+          ^~~~~~
+gcc -o "Assignment q13.exe" "src\\Assignment q13.o" 
+18:22:59 **** Rebuild of configuration Debug for project Assignment q14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q14.o" "..\\src\\Assignment q14.c" 
+gcc -o "Assignment q14.exe" "src\\Assignment q14.o" 
+18:22:59 **** Rebuild of configuration Debug for project Assignment q2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q2.o" "..\\src\\Assignment q2.c" 
+gcc -o "Assignment q2.exe" "src\\Assignment q2.o" 
+18:23:00 **** Rebuild of configuration Debug for project Assignment q3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q3.o" "..\\src\\Assignment q3.c" 
+gcc -o "Assignment q3.exe" "src\\Assignment q3.o" 
+18:23:00 **** Rebuild of configuration Debug for project Assignment q4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q4.o" "..\\src\\Assignment q4.c" 
+gcc -o "Assignment q4.exe" "src\\Assignment q4.o" 
+18:23:00 **** Rebuild of configuration Debug for project Assignment q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q5.o" "..\\src\\Assignment q5.c" 
+gcc -o "Assignment q5.exe" "src\\Assignment q5.o" 
+18:23:01 **** Rebuild of configuration Debug for project Assignment q6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q6.o" "..\\src\\Assignment q6.c" 
+gcc -o "Assignment q6.exe" "src\\Assignment q6.o" 
+18:23:01 **** Rebuild of configuration Debug for project Assignment q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q7.o" "..\\src\\Assignment q7.c" 
+gcc -o "Assignment q7.exe" "src\\Assignment q7.o" 
+18:23:01 **** Rebuild of configuration Debug for project Assignment q8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q8.o" "..\\src\\Assignment q8.c" 
+gcc -o "Assignment q8.exe" "src\\Assignment q8.o" 
+18:23:02 **** Rebuild of configuration Debug for project Assignment q9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Assignment q9.o" "..\\src\\Assignment q9.c" 
+gcc -o "Assignment q9.exe" "src\\Assignment q9.o" 
+18:23:02 **** Rebuild of configuration Debug for project Diamond pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diamond pattern.o" "..\\src\\Diamond pattern.c" 
+gcc -o "Diamond pattern.exe" "src\\Diamond pattern.o" 
+18:23:03 **** Rebuild of configuration Debug for project Diamond pattern1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diamond pattern1.o" "..\\src\\Diamond pattern1.c" 
+gcc -o "Diamond pattern1.exe" "src\\Diamond pattern1.o" 
+18:23:03 **** Rebuild of configuration Debug for project Hill pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hill pattern.o" "..\\src\\Hill pattern.c" 
+gcc -o "Hill pattern.exe" "src\\Hill pattern.o" 
+Info: Nothing to build for Mock question 1
+18:23:03 **** Rebuild of configuration Debug for project Mock question 23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 23.o" "..\\src\\Mock question 23.c" 
+..\src\Mock question 23.c: In function 'main':
+..\src\Mock question 23.c:15:10: warning: unused variable 'n' [-Wunused-variable]
+  int i,j,n;
+          ^
+gcc -o "Mock question 23.exe" "src\\Mock question 23.o" 
+18:23:04 **** Rebuild of configuration Debug for project Mock question 25 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 25.o" "..\\src\\Mock question 25.c" 
+..\src\Mock question 25.c: In function 'main':
+..\src\Mock question 25.c:31:12: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   for(j=1; j=i*2-1; j++){
+            ^
+gcc -o "Mock question 25.exe" "src\\Mock question 25.o" 
+18:23:04 **** Rebuild of configuration Debug for project Mock question 27 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 27.o" "..\\src\\Mock question 27.c" 
+gcc -o "Mock question 27.exe" "src\\Mock question 27.o" 
+18:23:05 **** Rebuild of configuration Debug for project Mock question 35 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 35.o" "..\\src\\Mock question 35.c" 
+gcc -o "Mock question 35.exe" "src\\Mock question 35.o" 
+18:23:05 **** Rebuild of configuration Debug for project Mock question 37 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 37.o" "..\\src\\Mock question 37.c" 
+gcc -o "Mock question 37.exe" "src\\Mock question 37.o" 
+18:23:05 **** Rebuild of configuration Debug for project Mock question 39 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 39.o" "..\\src\\Mock question 39.c" 
+gcc -o "Mock question 39.exe" "src\\Mock question 39.o" 
+18:23:06 **** Rebuild of configuration Debug for project Mock questions 18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 18.o" "..\\src\\Mock questions 18.c" 
+gcc -o "Mock questions 18.exe" "src\\Mock questions 18.o" 
+18:23:06 **** Rebuild of configuration Debug for project Mock questions 19 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 19.o" "..\\src\\Mock questions 19.c" 
+gcc -o "Mock questions 19.exe" "src\\Mock questions 19.o" 
+18:23:06 **** Rebuild of configuration Debug for project Mock questions 24 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 24.o" "..\\src\\Mock questions 24.c" 
+..\src\Mock questions 24.c: In function 'main':
+..\src\Mock questions 24.c:32:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+    printf("");
+           ^~
+..\src\Mock questions 24.c:32:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+gcc -o "Mock questions 24.exe" "src\\Mock questions 24.o" 
+18:23:07 **** Rebuild of configuration Debug for project Mock questions 29 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 29.o" "..\\src\\Mock questions 29.c" 
+gcc -o "Mock questions 29.exe" "src\\Mock questions 29.o" 
+18:23:07 **** Rebuild of configuration Debug for project Mock questions 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 6.o" "..\\src\\Mock questions 6.c" 
+..\src\Mock questions 6.c: In function 'main':
+..\src\Mock questions 6.c:16:1: warning: statement with no effect [-Wunused-value]
+ 0
+ ^
+..\src\Mock questions 6.c:16:2: error: expected ';' before 'for'
+ 0
+  ^
+  ;
+  for(i=1; i<=10; i++){
+  ~~~
+..\src\Mock questions 6.c:15:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j;
+        ^
+..\src\Mock questions 6.c:15:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,j;
+      ^
+18:23:07 **** Rebuild of configuration Debug for project Mocking question 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mocking question 7.o" "..\\src\\Mocking question 7.c" 
+gcc -o "Mocking question 7.exe" "src\\Mocking question 7.o" 
+18:23:08 **** Rebuild of configuration Debug for project Mocking question 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mocking question 8.o" "..\\src\\Mocking question 8.c" 
+gcc -o "Mocking question 8.exe" "src\\Mocking question 8.o" 
+18:23:08 **** Rebuild of configuration Debug for project Mocking questions 20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mocking questions 20.o" "..\\src\\Mocking questions 20.c" 
+gcc -o "Mocking questions 20.exe" "src\\Mocking questions 20.o" 
+18:23:08 **** Rebuild of configuration Debug for project Number pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Number pattern.o" "..\\src\\Number pattern.c" 
+gcc -o "Number pattern.exe" "src\\Number pattern.o" 
+18:23:09 **** Rebuild of configuration Debug for project Pyramid pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pyramid pattern.o" "..\\src\\Pyramid pattern.c" 
+gcc -o "Pyramid pattern.exe" "src\\Pyramid pattern.o" 
+18:23:09 **** Rebuild of configuration Debug for project Reverse Hill pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse Hill pattern.o" "..\\src\\Reverse Hill pattern.c" 
+gcc -o "Reverse Hill pattern.exe" "src\\Reverse Hill pattern.o" 
+18:23:10 **** Rebuild of configuration Debug for project Right sided triangle ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Right sided triangle.o" "..\\src\\Right sided triangle.c" 
+gcc -o "Right sided triangle.exe" "src\\Right sided triangle.o" 
+18:23:10 **** Rebuild of configuration Debug for project Right triangle ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Right triangle.o" "..\\src\\Right triangle.c" 
+..\src\Right triangle.c:1:1: error: stray '`' in program
+ `/*
+ ^
+18:23:10 **** Rebuild of configuration Debug for project SMAPLESD ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SMAPLESD.o" "..\\src\\SMAPLESD.c" 
+gcc -o SMAPLESD.exe "src\\SMAPLESD.o" 
+18:23:11 **** Rebuild of configuration Debug for project Star pattern 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Star pattern 1.o" "..\\src\\Star pattern 1.c" 
+gcc -o "Star pattern 1.exe" "src\\Star pattern 1.o" 
+Info: Nothing to build for increasing triangle pattern
+18:23:11 **** Rebuild of configuration Debug for project mock question 26 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mock question 26.o" "..\\src\\mock question 26.c" 
+gcc -o "mock question 26.exe" "src\\mock question 26.o" 
+18:23:11 **** Rebuild of configuration Debug for project mock question 52 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mock question 52.o" "..\\src\\mock question 52.c" 
+..\src\mock question 52.c: In function 'main':
+..\src\mock question 52.c:20:17: error: expected expression before ')' token
+     for(j=1; j<=)
+                 ^
+..\src\mock question 52.c:21:4: error: expected expression before '}' token
+    }
+    ^
+18:23:12 **** Rebuild of configuration Debug for project mocking question 22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mocking question 22.o" "..\\src\\mocking question 22.c" 
+gcc -o "mocking question 22.exe" "src\\mocking question 22.o" 
+18:23:12 **** Rebuild of configuration Debug for project pattern 10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 10.o" "..\\src\\pattern 10.c" 
+gcc -o "pattern 10.exe" "src\\pattern 10.o" 
+18:23:12 **** Rebuild of configuration Debug for project pattern 11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 11.o" "..\\src\\pattern 11.c" 
+gcc -o "pattern 11.exe" "src\\pattern 11.o" 
+18:23:13 **** Rebuild of configuration Debug for project pattern 12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 12.o" "..\\src\\pattern 12.c" 
+..\src\pattern 12.c: In function 'main':
+..\src\pattern 12.c:27:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    printf("%c", (char)p++ +"");
+            ~^   ~~~~~~~~~~~~~
+            %s
+..\src\pattern 12.c:27:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    printf("%c", (char)p++ +"");
+            ~^   ~~~~~~~~~~~~~
+            %s
+gcc -o "pattern 12.exe" "src\\pattern 12.o" 
+18:23:13 **** Rebuild of configuration Debug for project pattern 13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 13.o" "..\\src\\pattern 13.c" 
+..\src\pattern 13.c: In function 'main':
+..\src\pattern 13.c:24:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+..\src\pattern 13.c:24:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+..\src\pattern 13.c:27:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+..\src\pattern 13.c:27:15: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+      printf("%c", (char)p++ +"");
+              ~^   ~~~~~~~~~~~~~
+              %s
+gcc -o "pattern 13.exe" "src\\pattern 13.o" 
+18:23:13 **** Rebuild of configuration Debug for project pattern 14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 14.o" "..\\src\\pattern 14.c" 
+..\src\pattern 14.c:14:9: error: #include expects "FILENAME" or <FILENAME>
+ #include
+         ^
+..\src\pattern 14.c: In function 'main':
+..\src\pattern 14.c:18:9: error: stray '\342' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+         ^
+..\src\pattern 14.c:18:10: error: stray '\200' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+          ^
+..\src\pattern 14.c:18:11: error: stray '\234' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+           ^
+..\src\pattern 14.c:18:12: error: stray '\' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+            ^
+..\src\pattern 14.c:18:13: error: 'nEnter' undeclared (first use in this function)
+  printf(â€œ\nEnter the number of rows : â€œ);
+             ^~~~~~
+..\src\pattern 14.c:18:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\pattern 14.c:18:19: error: expected ')' before 'the'
+  printf(â€œ\nEnter the number of rows : â€œ);
+                   ^~~~
+                   )
+..\src\pattern 14.c:18:41: error: stray '\342' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+                                         ^
+..\src\pattern 14.c:18:42: error: stray '\200' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+                                          ^
+..\src\pattern 14.c:18:43: error: stray '\234' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+                                           ^
+..\src\pattern 14.c:19:8: error: stray '\342' in program
+  scanf(â€œ%dâ€?,&rows);
+        ^
+..\src\pattern 14.c:19:9: error: stray '\200' in program
+  scanf(â€œ%dâ€?,&rows);
+         ^
+..\src\pattern 14.c:19:10: error: stray '\234' in program
+  scanf(â€œ%dâ€?,&rows);
+          ^
+..\src\pattern 14.c:19:11: error: expected expression before '%' token
+  scanf(â€œ%dâ€?,&rows);
+           ^
+..\src\pattern 14.c:19:13: error: stray '\342' in program
+  scanf(â€œ%dâ€?,&rows);
+             ^
+..\src\pattern 14.c:19:14: error: stray '\200' in program
+  scanf(â€œ%dâ€?,&rows);
+              ^
+..\src\pattern 14.c:19:15: error: stray '\235' in program
+  scanf(â€œ%dâ€?,&rows);
+               ^
+..\src\pattern 14.c:20:9: error: stray '\342' in program
+  printf(â€œ\nâ€?);
+         ^
+..\src\pattern 14.c:20:10: error: stray '\200' in program
+  printf(â€œ\nâ€?);
+          ^
+..\src\pattern 14.c:20:11: error: stray '\234' in program
+  printf(â€œ\nâ€?);
+           ^
+..\src\pattern 14.c:20:12: error: stray '\' in program
+  printf(â€œ\nâ€?);
+            ^
+..\src\pattern 14.c:20:14: error: stray '\342' in program
+  printf(â€œ\nâ€?);
+              ^
+..\src\pattern 14.c:20:15: error: stray '\200' in program
+  printf(â€œ\nâ€?);
+               ^
+..\src\pattern 14.c:20:16: error: stray '\235' in program
+  printf(â€œ\nâ€?);
+                ^
+..\src\pattern 14.c:20:13: error: 'n' undeclared (first use in this function)
+  printf(â€œ\nâ€?);
+             ^
+..\src\pattern 14.c:25:11: error: stray '\342' in program
+    printf(â€? â€œ);
+           ^
+..\src\pattern 14.c:25:12: error: stray '\200' in program
+    printf(â€? â€œ);
+            ^
+..\src\pattern 14.c:25:13: error: stray '\235' in program
+    printf(â€? â€œ);
+             ^
+..\src\pattern 14.c:25:15: error: stray '\342' in program
+    printf(â€? â€œ);
+               ^
+..\src\pattern 14.c:25:16: error: stray '\200' in program
+    printf(â€? â€œ);
+                ^
+..\src\pattern 14.c:25:17: error: stray '\234' in program
+    printf(â€? â€œ);
+                 ^
+..\src\pattern 14.c:25:4: error: too few arguments to function 'printf'
+    printf(â€? â€œ);
+    ^~~~~~
+In file included from ..\src\pattern 14.c:11:
+C:/mingw64/x86_64-w64-mingw32/include/stdio.h:509:15: note: declared here
+   int __cdecl printf(const char * __restrict__ _Format,...);
+               ^~~~~~
+..\src\pattern 14.c:34:11: error: stray '\342' in program
+    printf(â€œ%4dâ€?, coef);
+           ^
+..\src\pattern 14.c:34:12: error: stray '\200' in program
+    printf(â€œ%4dâ€?, coef);
+            ^
+..\src\pattern 14.c:34:13: error: stray '\234' in program
+    printf(â€œ%4dâ€?, coef);
+             ^
+..\src\pattern 14.c:34:14: error: expected expression before '%' token
+    printf(â€œ%4dâ€?, coef);
+              ^
+..\src\pattern 14.c:34:15: error: invalid suffix "d" on integer constant
+    printf(â€œ%4dâ€?, coef);
+               ^~
+..\src\pattern 14.c:34:17: error: stray '\342' in program
+    printf(â€œ%4dâ€?, coef);
+                 ^
+..\src\pattern 14.c:34:18: error: stray '\200' in program
+    printf(â€œ%4dâ€?, coef);
+                  ^
+..\src\pattern 14.c:34:19: error: stray '\235' in program
+    printf(â€œ%4dâ€?, coef);
+                   ^
+..\src\pattern 14.c:36:10: error: stray '\342' in program
+   printf(â€œ\n\nâ€?);
+          ^
+..\src\pattern 14.c:36:11: error: stray '\200' in program
+   printf(â€œ\n\nâ€?);
+           ^
+..\src\pattern 14.c:36:12: error: stray '\234' in program
+   printf(â€œ\n\nâ€?);
+            ^
+..\src\pattern 14.c:36:13: error: stray '\' in program
+   printf(â€œ\n\nâ€?);
+             ^
+..\src\pattern 14.c:36:15: error: stray '\' in program
+   printf(â€œ\n\nâ€?);
+               ^
+..\src\pattern 14.c:36:15: error: expected ')' before 'n'
+   printf(â€œ\n\nâ€?);
+               ^~
+               )
+..\src\pattern 14.c:36:17: error: stray '\342' in program
+   printf(â€œ\n\nâ€?);
+                 ^
+..\src\pattern 14.c:36:18: error: stray '\200' in program
+   printf(â€œ\n\nâ€?);
+                  ^
+..\src\pattern 14.c:36:19: error: stray '\235' in program
+   printf(â€œ\n\nâ€?);
+                   ^
+18:23:14 **** Rebuild of configuration Debug for project pattern 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 2.o" "..\\src\\pattern 2.c" 
+gcc -o "pattern 2.exe" "src\\pattern 2.o" 
+18:23:14 **** Rebuild of configuration Debug for project pattern 3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 3.o" "..\\src\\pattern 3.c" 
+gcc -o "pattern 3.exe" "src\\pattern 3.o" 
+18:23:14 **** Rebuild of configuration Debug for project pattern 4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 4.o" "..\\src\\pattern 4.c" 
+gcc -o "pattern 4.exe" "src\\pattern 4.o" 
+18:23:15 **** Rebuild of configuration Debug for project pattern 5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 5.o" "..\\src\\pattern 5.c" 
+gcc -o "pattern 5.exe" "src\\pattern 5.o" 
+18:23:15 **** Rebuild of configuration Debug for project pattern 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 6.o" "..\\src\\pattern 6.c" 
+..\src\pattern 6.c: In function 'main':
+..\src\pattern 6.c:15:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j;
+        ^
+..\src\pattern 6.c:15:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,j;
+      ^
+gcc -o "pattern 6.exe" "src\\pattern 6.o" 
+18:23:16 **** Rebuild of configuration Debug for project pattern 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 7.o" "..\\src\\pattern 7.c" 
+gcc -o "pattern 7.exe" "src\\pattern 7.o" 
+18:23:16 **** Rebuild of configuration Debug for project pattern 8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 8.o" "..\\src\\pattern 8.c" 
+..\src\pattern 8.c: In function 'main':
+..\src\pattern 8.c:20:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    printf("%c", (char)p+"");
+            ~^   ~~~~~~~~~~
+            %s
+..\src\pattern 8.c:20:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+    printf("%c", (char)p+"");
+            ~^   ~~~~~~~~~~
+            %s
+gcc -o "pattern 8.exe" "src\\pattern 8.o" 
+18:23:16 **** Rebuild of configuration Debug for project pattern 9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 9.o" "..\\src\\pattern 9.c" 
+gcc -o "pattern 9.exe" "src\\pattern 9.o" 
+18:23:17 **** Rebuild of configuration Debug for project sample ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample.o" "..\\src\\sample.c" 
+gcc -o sample.exe "src\\sample.o" 
+18:23:17 **** Rebuild of configuration Debug for project smaple ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\smaple.o" "..\\src\\smaple.c" 
+gcc -o smaple.exe "src\\smaple.o" 
+18:23:17 **** Rebuild of configuration Debug for project square pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\square pattern.o" "..\\src\\square pattern.c" 
+gcc -o "square pattern.exe" "src\\square pattern.o" 
+18:23:18 **** Incremental Build of configuration Debug for project Mock question 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 1.o" "..\\src\\Mock question 1.c" 
+gcc -o "Mock question 1.exe" "src\\Mock question 1.o" 
+Info: Nothing to build for Mock question 1
+08:30:35 **** Rebuild of configuration Debug for project Mock question 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock question 1.o" "..\\src\\Mock question 1.c" 
+gcc -o "Mock question 1.exe" "src\\Mock question 1.o" 
+Info: Nothing to build for Mock question 1
+08:31:13 **** Rebuild of configuration Debug for project Mock questions 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 6.o" "..\\src\\Mock questions 6.c" 
+..\src\Mock questions 6.c: In function 'main':
+..\src\Mock questions 6.c:16:1: warning: statement with no effect [-Wunused-value]
+ 0
+ ^
+..\src\Mock questions 6.c:16:2: error: expected ';' before 'for'
+ 0
+  ^
+  ;
+  for(i=1; i<=10; i++){
+  ~~~
+..\src\Mock questions 6.c:15:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j;
+        ^
+..\src\Mock questions 6.c:15:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,j;
+      ^
+11:30:25 **** Incremental Build of configuration Debug for project Mock questions 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 6.o" "..\\src\\Mock questions 6.c" 
+..\src\Mock questions 6.c: In function 'main':
+..\src\Mock questions 6.c:16:1: warning: statement with no effect [-Wunused-value]
+ 0
+ ^
+..\src\Mock questions 6.c:16:2: error: expected ';' before 'for'
+ 0
+  ^
+  ;
+  for(i=1; i<=10; i++){
+  ~~~
+..\src\Mock questions 6.c:15:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j;
+        ^
+..\src\Mock questions 6.c:15:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,j;
+      ^
+11:31:08 **** Rebuild of configuration Debug for project mocking question 22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mocking question 22.o" "..\\src\\mocking question 22.c" 
+gcc -o "mocking question 22.exe" "src\\mocking question 22.o" 

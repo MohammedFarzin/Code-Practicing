@@ -1,0 +1,7 @@
+18:23:17 **** Rebuild of configuration Debug for project square pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\square pattern.o" "..\\src\\square pattern.c" 
+gcc -o "square pattern.exe" "src\\square pattern.o" 
+
+18:23:18 Build Finished. 0 errors, 0 warnings. (took 246ms)
+

@@ -1,0 +1,41 @@
+/*
+ ============================================================================
+ Name        : Assignment.c
+ Author      : farzin
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int input, array1[100][100], array2[100][100],count1,count2,count3,count4;
+
+	setbuf(stdout, NULL);
+	printf("Enter the size of arrays");
+	scanf("%d", &input);
+
+	printf("Enter the values of arrays");
+	for(count1=0; count1<input; count1++){
+		for(count2=0; count2<input; count2++){
+			scanf("%d", &array1[count1][count2]);
+		}
+	}
+
+	printf("Enter the values of array 2");
+	for(count3=0;count3<input;count3++){
+		for(count4=0; count4<input; count4++){
+			scanf("%d", array2[count3][count4]);
+		}
+	}
+
+
+
+
+
+
+	return EXIT_SUCCESS;
+}

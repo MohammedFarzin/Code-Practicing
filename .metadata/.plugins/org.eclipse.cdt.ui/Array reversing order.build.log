@@ -1,0 +1,11 @@
+18:22:56 **** Rebuild of configuration Debug for project Array reversing order ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array reversing order.o" "..\\src\\Array reversing order.c" 
+..\src\Array reversing order.c: In function 'main':
+..\src\Array reversing order.c:16:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,size,arr[100];
+        ^
+gcc -o "Array reversing order.exe" "src\\Array reversing order.o" 
+
+18:22:57 Build Finished. 0 errors, 1 warnings. (took 451ms)
+

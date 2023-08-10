@@ -1,0 +1,7 @@
+18:23:07 **** Rebuild of configuration Debug for project Mocking question 7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mocking question 7.o" "..\\src\\Mocking question 7.c" 
+gcc -o "Mocking question 7.exe" "src\\Mocking question 7.o" 
+
+18:23:08 Build Finished. 0 errors, 0 warnings. (took 323ms)
+

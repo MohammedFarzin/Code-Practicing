@@ -1,0 +1,12 @@
+18:23:06 **** Rebuild of configuration Debug for project Mock questions 24 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mock questions 24.o" "..\\src\\Mock questions 24.c" 
+..\src\Mock questions 24.c: In function 'main':
+..\src\Mock questions 24.c:32:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+    printf("");
+           ^~
+..\src\Mock questions 24.c:32:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+gcc -o "Mock questions 24.exe" "src\\Mock questions 24.o" 
+
+18:23:07 Build Finished. 0 errors, 2 warnings. (took 329ms)
+

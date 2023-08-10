@@ -1,0 +1,7 @@
+18:23:09 **** Rebuild of configuration Debug for project Reverse Hill pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse Hill pattern.o" "..\\src\\Reverse Hill pattern.c" 
+gcc -o "Reverse Hill pattern.exe" "src\\Reverse Hill pattern.o" 
+
+18:23:10 Build Finished. 0 errors, 0 warnings. (took 326ms)
+

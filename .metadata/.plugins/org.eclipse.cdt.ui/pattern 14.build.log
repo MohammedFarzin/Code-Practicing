@@ -1,0 +1,161 @@
+18:23:13 **** Rebuild of configuration Debug for project pattern 14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 14.o" "..\\src\\pattern 14.c" 
+..\src\pattern 14.c:14:9: error: #include expects "FILENAME" or <FILENAME>
+ #include
+         ^
+..\src\pattern 14.c: In function 'main':
+..\src\pattern 14.c:18:9: error: stray '\342' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+         ^
+..\src\pattern 14.c:18:10: error: stray '\200' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+          ^
+..\src\pattern 14.c:18:11: error: stray '\234' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+           ^
+..\src\pattern 14.c:18:12: error: stray '\' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+            ^
+..\src\pattern 14.c:18:13: error: 'nEnter' undeclared (first use in this function)
+  printf(â€œ\nEnter the number of rows : â€œ);
+             ^~~~~~
+..\src\pattern 14.c:18:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\pattern 14.c:18:19: error: expected ')' before 'the'
+  printf(â€œ\nEnter the number of rows : â€œ);
+                   ^~~~
+                   )
+..\src\pattern 14.c:18:41: error: stray '\342' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+                                         ^
+..\src\pattern 14.c:18:42: error: stray '\200' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+                                          ^
+..\src\pattern 14.c:18:43: error: stray '\234' in program
+  printf(â€œ\nEnter the number of rows : â€œ);
+                                           ^
+..\src\pattern 14.c:19:8: error: stray '\342' in program
+  scanf(â€œ%dâ€?,&rows);
+        ^
+..\src\pattern 14.c:19:9: error: stray '\200' in program
+  scanf(â€œ%dâ€?,&rows);
+         ^
+..\src\pattern 14.c:19:10: error: stray '\234' in program
+  scanf(â€œ%dâ€?,&rows);
+          ^
+..\src\pattern 14.c:19:11: error: expected expression before '%' token
+  scanf(â€œ%dâ€?,&rows);
+           ^
+..\src\pattern 14.c:19:13: error: stray '\342' in program
+  scanf(â€œ%dâ€?,&rows);
+             ^
+..\src\pattern 14.c:19:14: error: stray '\200' in program
+  scanf(â€œ%dâ€?,&rows);
+              ^
+..\src\pattern 14.c:19:15: error: stray '\235' in program
+  scanf(â€œ%dâ€?,&rows);
+               ^
+..\src\pattern 14.c:20:9: error: stray '\342' in program
+  printf(â€œ\nâ€?);
+         ^
+..\src\pattern 14.c:20:10: error: stray '\200' in program
+  printf(â€œ\nâ€?);
+          ^
+..\src\pattern 14.c:20:11: error: stray '\234' in program
+  printf(â€œ\nâ€?);
+           ^
+..\src\pattern 14.c:20:12: error: stray '\' in program
+  printf(â€œ\nâ€?);
+            ^
+..\src\pattern 14.c:20:14: error: stray '\342' in program
+  printf(â€œ\nâ€?);
+              ^
+..\src\pattern 14.c:20:15: error: stray '\200' in program
+  printf(â€œ\nâ€?);
+               ^
+..\src\pattern 14.c:20:16: error: stray '\235' in program
+  printf(â€œ\nâ€?);
+                ^
+..\src\pattern 14.c:20:13: error: 'n' undeclared (first use in this function)
+  printf(â€œ\nâ€?);
+             ^
+..\src\pattern 14.c:25:11: error: stray '\342' in program
+    printf(â€? â€œ);
+           ^
+..\src\pattern 14.c:25:12: error: stray '\200' in program
+    printf(â€? â€œ);
+            ^
+..\src\pattern 14.c:25:13: error: stray '\235' in program
+    printf(â€? â€œ);
+             ^
+..\src\pattern 14.c:25:15: error: stray '\342' in program
+    printf(â€? â€œ);
+               ^
+..\src\pattern 14.c:25:16: error: stray '\200' in program
+    printf(â€? â€œ);
+                ^
+..\src\pattern 14.c:25:17: error: stray '\234' in program
+    printf(â€? â€œ);
+                 ^
+..\src\pattern 14.c:25:4: error: too few arguments to function 'printf'
+    printf(â€? â€œ);
+    ^~~~~~
+In file included from ..\src\pattern 14.c:11:
+C:/mingw64/x86_64-w64-mingw32/include/stdio.h:509:15: note: declared here
+   int __cdecl printf(const char * __restrict__ _Format,...);
+               ^~~~~~
+..\src\pattern 14.c:34:11: error: stray '\342' in program
+    printf(â€œ%4dâ€?, coef);
+           ^
+..\src\pattern 14.c:34:12: error: stray '\200' in program
+    printf(â€œ%4dâ€?, coef);
+            ^
+..\src\pattern 14.c:34:13: error: stray '\234' in program
+    printf(â€œ%4dâ€?, coef);
+             ^
+..\src\pattern 14.c:34:14: error: expected expression before '%' token
+    printf(â€œ%4dâ€?, coef);
+              ^
+..\src\pattern 14.c:34:15: error: invalid suffix "d" on integer constant
+    printf(â€œ%4dâ€?, coef);
+               ^~
+..\src\pattern 14.c:34:17: error: stray '\342' in program
+    printf(â€œ%4dâ€?, coef);
+                 ^
+..\src\pattern 14.c:34:18: error: stray '\200' in program
+    printf(â€œ%4dâ€?, coef);
+                  ^
+..\src\pattern 14.c:34:19: error: stray '\235' in program
+    printf(â€œ%4dâ€?, coef);
+                   ^
+..\src\pattern 14.c:36:10: error: stray '\342' in program
+   printf(â€œ\n\nâ€?);
+          ^
+..\src\pattern 14.c:36:11: error: stray '\200' in program
+   printf(â€œ\n\nâ€?);
+           ^
+..\src\pattern 14.c:36:12: error: stray '\234' in program
+   printf(â€œ\n\nâ€?);
+            ^
+..\src\pattern 14.c:36:13: error: stray '\' in program
+   printf(â€œ\n\nâ€?);
+             ^
+..\src\pattern 14.c:36:15: error: stray '\' in program
+   printf(â€œ\n\nâ€?);
+               ^
+..\src\pattern 14.c:36:15: error: expected ')' before 'n'
+   printf(â€œ\n\nâ€?);
+               ^~
+               )
+..\src\pattern 14.c:36:17: error: stray '\342' in program
+   printf(â€œ\n\nâ€?);
+                 ^
+..\src\pattern 14.c:36:18: error: stray '\200' in program
+   printf(â€œ\n\nâ€?);
+                  ^
+..\src\pattern 14.c:36:19: error: stray '\235' in program
+   printf(â€œ\n\nâ€?);
+                   ^
+
+18:23:14 Build Failed. 49 errors, 0 warnings. (took 179ms)
+

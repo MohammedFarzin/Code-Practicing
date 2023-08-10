@@ -1,0 +1,9 @@
+18:23:10 **** Rebuild of configuration Debug for project Right triangle ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Right triangle.o" "..\\src\\Right triangle.c" 
+..\src\Right triangle.c:1:1: error: stray '`' in program
+ `/*
+ ^
+
+18:23:10 Build Failed. 1 errors, 0 warnings. (took 112ms)
+

@@ -1,0 +1,13 @@
+18:23:11 **** Rebuild of configuration Debug for project mock question 52 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\mock question 52.o" "..\\src\\mock question 52.c" 
+..\src\mock question 52.c: In function 'main':
+..\src\mock question 52.c:20:17: error: expected expression before ')' token
+     for(j=1; j<=)
+                 ^
+..\src\mock question 52.c:21:4: error: expected expression before '}' token
+    }
+    ^
+
+18:23:11 Build Failed. 2 errors, 0 warnings. (took 112ms)
+

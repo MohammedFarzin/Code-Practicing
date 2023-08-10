@@ -1,0 +1,7 @@
+18:22:55 **** Rebuild of configuration Debug for project Array Reversing elements in array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Array Reversing elements in array.o" "..\\src\\Array Reversing elements in array.c" 
+gcc -o "Array Reversing elements in array.exe" "src\\Array Reversing elements in array.o" 
+
+18:22:55 Build Finished. 0 errors, 0 warnings. (took 389ms)
+

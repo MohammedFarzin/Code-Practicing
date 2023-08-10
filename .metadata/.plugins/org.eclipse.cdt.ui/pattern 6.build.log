@@ -1,0 +1,14 @@
+18:23:15 **** Rebuild of configuration Debug for project pattern 6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pattern 6.o" "..\\src\\pattern 6.c" 
+..\src\pattern 6.c: In function 'main':
+..\src\pattern 6.c:15:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j;
+        ^
+..\src\pattern 6.c:15:6: warning: unused variable 'i' [-Wunused-variable]
+  int i,j;
+      ^
+gcc -o "pattern 6.exe" "src\\pattern 6.o" 
+
+18:23:16 Build Finished. 0 errors, 2 warnings. (took 326ms)
+
